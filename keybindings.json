@@ -1,4 +1,4 @@
-// Place your key bindings in this file to override the defaultsauto[] 
+// Place your key bindings in this file to override the defaultsauto[]
 [
     {
         "key": "alt+cmd+,",
@@ -39,5 +39,41 @@
     {
         "key": "cmd+k cmd+o",
         "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "cmd+k cmd+=",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+\",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+k cmd+=",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+\",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+\",
+        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
     }
 ]
