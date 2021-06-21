@@ -25,3 +25,5 @@ alias delayjobs="be rake jobs:work"
 alias clearjobs="be rake jobs:clear"
 alias testdb="RAILS_ENV=test bundle exec rake db:drop db:create db:schema:load db:seed"
 alias dotfiles="cd ~/Things/dotfiles;  code ."
+alias reload="source ~/.zshrc"
+
