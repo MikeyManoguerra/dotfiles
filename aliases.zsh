@@ -1,3 +1,4 @@
+
 alias y="yarn"
 alias ys="yarn serve"
 alias yst="yarn start"
@@ -19,6 +20,7 @@ alias backend="cd ~/Things/houwzer/backend"
 alias frontend="cd ~/Things/houwzer/frontend"
 alias dbdump="~/Things/houwzer/util/db-dump"
 alias proddb="DISABLE_DATABASE_ENVIRONMENT_CHECK=1 bundle exec rake db:drop db:create; psql houwzer-development < ~/Things/houwzer/util/production-dump.sql"
+alias devdb="DISABLE_DATABASE_ENVIRONMENT_CHECK=1 bundle exec rake refresh:db"
 alias migrate="bin/rails db:migrate RAILS_ENV=development"
 alias cache="rails dev:cache"
 alias delayjobs="be rake jobs:work"
@@ -26,4 +28,3 @@ alias clearjobs="be rake jobs:clear"
 alias testdb="RAILS_ENV=test bundle exec rake db:drop db:create db:schema:load db:seed"
 alias dotfiles="cd ~/Things/dotfiles;  code ."
 alias reload="source ~/.zshrc"
-
