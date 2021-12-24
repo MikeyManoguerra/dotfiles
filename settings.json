@@ -1,59 +1,65 @@
 {
-    "window.zoomLevel": 2,
-    "breadcrumbs.enabled": true,
-    "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "all",
-    "workbench.list.automaticKeyboardNavigation": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "python.formatting.provider": "black",
-    "workbench.sideBar.location": "left",
-    "editor.accessibilitySupport": "off",
-    "eslint.enable": false,
-    "explorer.compactFolders": false,
-    "editor.renameOnType": false,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.iconTheme": "seti",
-    "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": false,
-    "python.linting.pylintArgs": [
-      "--load-plugins=pylint_django"
-    ],
-    //  "editor.detectIndentation": false,
-    "editor.tabSize": 2,
-    "[python]": {
-      "editor.tabSize": 4,
-    },
-    "python.linting.enabled": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "html.format.wrapAttributes": "force-expand-multiline",
-    "[typescript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "vetur.format.defaultFormatter.js": "vscode-typescript",
-    "vetur.format.defaultFormatter.html": "js-beautify-html",
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
-    },
-    "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Bluloco Dark",
-    "[css]": {
-      "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-    },
-    "[html]": {
-      "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[scss]": {
-      "editor.defaultFormatter": "HookyQR.beautify"
-    }
-  }
-
-
+  "editor.minimap.enabled": false,
+  "workbench.editor.wrapTabs":true,
+  "workbench.editor.tabSizing": "shrink",
+  "editor.renderWhitespace": "all",
+  "workbench.list.automaticKeyboardNavigation": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.formatting.provider": "black",
+  "workbench.sideBar.location": "left",
+  "editor.accessibilitySupport": "off",
+  "eslint.enable": false,
+  "explorer.compactFolders": false,
+  "editor.linkedEditing": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.iconTheme": "seti",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": false,
+  "html.format.wrapAttributes":"force-expand-multiline",
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django"
+  ],
+  //  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "[python]": {
+    "editor.tabSize": 4,
+  },
+  "python.linting.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // "html.format.wrapAttributes": "auto" ,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "erb": "html",
+    // "ruby": "html"
+  },
+  "explorer.confirmDelete": false,
+  "[css]": {},
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "workbench.colorTheme": "Bluloco Dark",
+  "rufo.exe": "/Users/Macsyunk/.rbenv/shims/rufo",  // can be an absolute path
+  "rufo.useBundler": false,
+  "liveshare.authenticationProvider": "GitHub",
+  "workbench.startupEditor": "newUntitledFile",
+  "html.autoClosingTags": false,
+  "workbench.editor.focusRecentEditorAfterClose": false,
+  "git.ignoreMissingGitWarning": true,
+}
