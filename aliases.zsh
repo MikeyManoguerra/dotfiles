@@ -29,3 +29,7 @@ alias testdb="RAILS_ENV=test bundle exec rake db:drop db:create db:schema:load d
 alias dotfiles="cd ~/Things/dotfiles;  code ."
 alias reload="source ~/.zshrc"
 alias curb="git rev-parse --abbrev-ref HEAD | pbcopy; echo 'current branch copied to clipboard'"
+alias parallel:setup="RAILS_ENV=test rails parallel:drop parallel:setup"
+alias parallel:spec="RAILS_ENV=test rails parallel:spec"
+alias parallel:run="RAILS_ENV=test rails parallel:spec"
+alias delete-merged="git branch --merged | grep -i -v -E 'master|dev'| xargs git branch -d"
